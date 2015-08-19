@@ -4,6 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans 
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="customEventHandler" class="com.ccc.springtutorial.customevent.CustomEventHandler"/>
-    <bean id="customEventPublisher" class="com.ccc.springtutorial.customevent.CustomEventPublisher"/>
+    <bean id="customEventHandler" class="com.tutorialspoint.springtutorial.customevent.CustomEventHandler"/>
+    <bean id="customEventPublisher" class="com.tutorialspoint.springtutorial.customevent.CustomEventPublisher"/>
 </beans>

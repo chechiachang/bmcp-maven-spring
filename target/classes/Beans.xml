@@ -12,20 +12,20 @@
           destroy-method="destroy"
           scope="singleton">
     </bean>
-    <bean class="com.ccc.bmcp.maven.spring.helloworld.InitHelloWorld"/>
+    <bean class="com.tutorialspoint.springtutorial.helloworld.InitHelloWorld"/>
     
-    <bean id="helloTaiwan" class="com.ccc.bmcp.maven.spring.hellotaiwan.HelloTaiwan">
+    <bean id="helloTaiwan" class="com.tutorialspoint.springtutorial.hellotaiwan.HelloTaiwan">
         <property name="message1" value="Hello Taiwan!"></property>
         <property name="message2" value="Ni How, Taiwan!"></property>
     </bean>
-    <bean id="helloJapan" class="com.ccc.bmcp.maven.spring.hellotaiwan.HelloJapan" parent="helloTaiwan">
+    <bean id="helloJapan" class="com.tutorialspoint.springtutorial.hellotaiwan.HelloJapan" parent="helloTaiwan">
         <property name="message1" value="Hello Japan!"></property>
         <property name="message3" value="Konichiwa Japan!"></property>
     </bean>
     
-    <bean id="textEditor" class="com.ccc.bmcp.maven.spring.texteditor.TextEditor">
+    <bean id="textEditor" class="com.tutorialspoint.springtutorial.texteditor.TextEditor">
         <constructor-arg ref="spellChecker"/>
     </bean>
-    <bean id="spellChecker" class="com.ccc.bmcp.maven.spring.texteditor.SpellChecker"/>
+    <bean id="spellChecker" class="com.tutorialspoint.springtutorial.texteditor.SpellChecker"/>
     -->
 </beans>

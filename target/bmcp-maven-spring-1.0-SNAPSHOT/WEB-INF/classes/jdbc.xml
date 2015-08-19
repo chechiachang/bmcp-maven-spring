@@ -9,7 +9,7 @@
         <property name="username" value="spring"/>
         <property name="password" value="2a2d595e6ed9a0b24f027f2b63b134d6"/>
     </bean>
-    <bean id="studentJDBCTemplate" class="com.ccc.springtutorial.jdbc.StudentJDBCTemplate">
+    <bean id="studentJDBCTemplate" class="com.tutorialspoint.springtutorial.jdbc.StudentJDBCTemplate">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 </beans>
