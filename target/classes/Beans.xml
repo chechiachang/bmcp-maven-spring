@@ -5,7 +5,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-
+<!--
     <bean id="helloWorld" 
           class="com.ccc.bmcp.maven.spring.helloworld.HelloWorld"
           init-method="init" 
@@ -27,4 +27,5 @@
         <constructor-arg ref="spellChecker"/>
     </bean>
     <bean id="spellChecker" class="com.ccc.bmcp.maven.spring.texteditor.SpellChecker"/>
+    -->
 </beans>
