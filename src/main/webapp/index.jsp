@@ -3,8 +3,8 @@
     Created on : Aug 20, 2015, 9:58:11 AM
     Author     : davidchang
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="/WEB-INF/jsp/include.jsp"%>
 <!DOCTYPE html>
 <html>
     <head>
