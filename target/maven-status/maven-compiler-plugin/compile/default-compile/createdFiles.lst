@@ -34,7 +34,9 @@ com/tutorialspoint/springtutorial/transaction/programmetric/StudentMarksMapper.c
 com/tutorialspoint/springtutorial/jdbc/StudentDAO.class
 com/tutorialspoint/springtutorial/xmlaop/Student.class
 com/tutorialspoint/springtutorial/jdbc/MainApp.class
+com/ccc/spring/form/Student.class
 com/tutorialspoint/springtutorial/xmlaop/MainApp.class
+com/ccc/spring/form/StudentController.class
 com/tutorialspoint/springtutorial/texteditor/MainAppConfig.class
 com/tutorialspoint/springtutorial/helloworld/HelloWorld.class
 com/tutorialspoint/springtutorial/texteditor/TextEditorConfig.class
