@@ -6,6 +6,7 @@
 package springapp.domain;
 
 import junit.framework.TestCase;
+import springapp.domain.Product;
 
 /**
  *

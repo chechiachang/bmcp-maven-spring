@@ -12,19 +12,26 @@ import springapp.domain.Product;
  *
  * @author davidchang
  */
-public class SimpleProductManager implements ProductManager{
+public class SimpleProductManager implements ProductManager {
+
+    private List<Product> products;
 
     @Override
     public void increasePrice(int percentage) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (products != null) {
+            for (Product product : products) {
+                double newPrice = product.getPrice() * (100 + percentage) / 100;
+                product.setPrice(newPrice);
+            }
+        }
     }
 
     @Override
     public List<Product> getProducts() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return products;
     }
-    
-    public void setProducts(List<Product> products){
-        throw new UnsupportedOperationException();
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }

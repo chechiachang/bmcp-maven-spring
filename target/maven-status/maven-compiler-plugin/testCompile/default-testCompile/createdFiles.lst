@@ -1,0 +1,9 @@
+springapp/service/TestSimpleProductManager.class
+springapp/web/HelloController.class
+springapp/domain/Product.class
+springapp/web/InventoryControllerTest.class
+springapp/test/HelloControllerTest.class
+springapp/domain/ProductTest.class
+springapp/web/InventoryController.class
+springapp/service/SimpleProductManager.class
+springapp/service/ProductManager.class
