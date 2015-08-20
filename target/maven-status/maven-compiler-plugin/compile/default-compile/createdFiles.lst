@@ -1,7 +1,10 @@
 springapp/service/TestSimpleProductManager.class
 springapp/web/HelloController.class
 springapp/domain/Product.class
+springapp/service/PriceIncrease.class
+springapp/web/PriceIncreaseFormController.class
 springapp/web/InventoryControllerTest.class
+springapp/service/PriceIncreaseValidator.class
 springapp/test/HelloControllerTest.class
 springapp/domain/ProductTest.class
 springapp/web/InventoryController.class

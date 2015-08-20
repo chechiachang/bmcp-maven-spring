@@ -1,9 +1,12 @@
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/web/InventoryController.java
+/home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/web/PriceIncreaseFormController.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/service/ProductManager.java
+/home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/service/PriceIncreaseValidator.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/web/HelloController.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/test/HelloControllerTest.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/domain/ProductTest.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/service/TestSimpleProductManager.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/service/SimpleProductManager.java
+/home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/service/PriceIncrease.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/web/InventoryControllerTest.java
 /home/davidchang/NetBeansProjects/bmcp-maven-spring/src/main/java/springapp/domain/Product.java
